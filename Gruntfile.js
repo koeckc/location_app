@@ -49,6 +49,8 @@ module.exports = function (grunt) {
     // Bring in the socket.io client
     'linker/js/socket.io.js',
 
+    'linker/js/angular.min.js',
+
     // then beef it up with some convenience logic for talking to Sails.js
     'linker/js/sails.io.js',
 
