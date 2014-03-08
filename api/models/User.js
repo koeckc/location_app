@@ -10,9 +10,13 @@ module.exports = {
 
   attributes: {
   	
-  	/* e.g.
-  	nickname: 'string'
-  	*/
+  	firstName: 'STRING',
+    lastName: 'STRING',
+    
+    emailAddress: {
+      type: 'email', // Email type will get validated by the ORM
+      required: true
+    }
     
   }
 
